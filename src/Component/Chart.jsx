@@ -14,7 +14,7 @@ import { data } from "autoprefixer";
 // import { MdOutlineLightMode } from "react-icons/md"
 let socket;
 
-const ENDPOINT = "http://localhost:3050";
+const ENDPOINT = "https://letsschat.onrender.com";
 function Chart() {
   const [myid, setMyid] = useState("");
   const [messages, setMessages] = useState([]);
