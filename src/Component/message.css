@@ -1,24 +1,52 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Beau+Rivage&family=Carter+One&family=Cinzel&family=Comfortaa:wght@300&family=Crimson+Text&family=Julius+Sans+One&family=Mooli&family=Roboto:wght@300;400&display=swap');
 .right
 {
     float: right;
-    background-color:rgb(97, 42, 70) ;
+    background-color:rgb(3, 70, 29) ;
     font-size: 17px;
-    color:white;
+    color: white;
+    margin-bottom: 2px;
+    font-family: 'Mooli', sans-serif;
     margin-right: 16px;
+    max-width: 50%;
+    padding: 4px;
+    margin-top: 16px;
+}
+.righttt
+{
+    float: right;
+    background-color:transparent;
+    margin-right: 16px;
+    max-width: 25%;
+    max-height: 35%;
     padding: 4px;
     margin-top: 16px;
 }
 .left
 {
     float: left;
-    background-color:rgb(21, 161, 94) ;
+    background-color:rgb(198, 195, 195) ;
     font-size: 17px;
-    color:white;
+    color: black;
+    font-family: 'Mooli', sans-serif;
+
     margin-right: 16px;
+    margin-bottom: 2px;
+    max-width: 50%;
+    padding: 4px;
+    margin-top: 16px;
+}
+
+.lefttt
+{
+    float: left;
+    background-color:transparent ;
+    margin-right: 16px;
+    max-width: 25%;
+    max-height: 35%;
     padding: 4px;
     margin-top: 16px;
 }
